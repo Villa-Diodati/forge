@@ -16,7 +16,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss'>
+@import './constants/scss-variables.scss';
+
 html, body, #app {
   width: 100%;
   height: 100%;
@@ -29,6 +31,13 @@ html, body, #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $forgeGrey;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 </style>

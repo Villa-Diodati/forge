@@ -23,7 +23,8 @@ h2 {
   margin: 0 0 40px;
 }
 main {
-  margin: 10% 25%;
+  text-align: center;
+  margin: 15% 25%;
 }
 
 </style>
